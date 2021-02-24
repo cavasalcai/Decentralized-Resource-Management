@@ -1,0 +1,10 @@
+{	"edgeArchitecture": {
+	"nodes":[
+				{"id": "1", "ip": "http://localhost:5000"},
+				{"id": "2", "ip": "http://localhost:5001"},
+				{"id": "3", "ip": "http://localhost:5002"},
+				{"id": "4", "ip": "http://localhost:5003"},
+				{"id": "5", "ip": "http://localhost:5004"}
+		]
+	}
+}

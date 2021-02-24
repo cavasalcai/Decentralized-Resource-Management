@@ -1,0 +1,29 @@
+{	"IoTapplication": {
+		"SLA": "2500",
+		"tasks": [
+			{"id": "t1", "RAM": "2", "HDD": "1", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t7"}, {"id": "t8"}, {"id": "t17"}]},
+			{"id": "t2", "RAM": "3", "HDD": "5", "CPU": "2", "DATA": "type_A", "dest": [{"id": "t7"}, {"id": "t9"}, {"id": "t18"}]},
+			{"id": "t3", "RAM": "3", "HDD": "6", "CPU": "7", "DATA": "type_A", "dest": [{"id": "t8"}, {"id": "t9"}, {"id": "t10"}, {"id": "t11"}, {"id": "t20"}]},
+			{"id": "t4", "RAM": "3", "HDD": "3", "CPU": "6", "DATA": "type_A", "dest": [{"id": "t10"}, {"id": "t12"}, {"id": "t13"}, {"id": "t19"}]},
+			{"id": "t5", "RAM": "1", "HDD": "7", "CPU": "3", "DATA": "type_A", "dest": [{"id": "t11"}, {"id": "t12"}, {"id": "t14"}, {"id": "t21"}]},
+			{"id": "t6", "RAM": "0", "HDD": "2", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t13"}, {"id": "t14"}, {"id": "t22"}]},
+			{"id": "t7", "RAM": "2", "HDD": "1", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t8", "RAM": "3", "HDD": "8", "CPU": "5", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t9", "RAM": "3", "HDD": "7", "CPU": "6", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t10", "RAM": "4", "HDD": "1", "CPU": "3", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t11", "RAM": "6", "HDD": "2", "CPU": "7", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t12", "RAM": "0", "HDD": "2", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t13", "RAM": "5", "HDD": "5", "CPU": "5", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t14", "RAM": "2", "HDD": "1", "CPU": "9", "DATA": "type_A", "dest": [{"id": "t15"}]},
+			{"id": "t15", "RAM": "4", "HDD": "7", "CPU": "3", "DATA": "type_A", "dest": [{"id": "t16"}]},
+			{"id": "t16", "RAM": "2", "HDD": "6", "CPU": "8", "DATA": "type_A", "dest": [{"id": "t17"}, {"id": "t18"}, {"id": "t19"}, {"id": "t20"}, {"id": "t21"}, {"id": "t22"}]},
+			{"id": "t17", "RAM": "0", "HDD": "2", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t23"}, {"id": "t24"}]},
+			{"id": "t18", "RAM": "2", "HDD": "1", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t23"}, {"id": "t24"}]},
+			{"id": "t19", "RAM": "1", "HDD": "1", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t23"}, {"id": "t24"}]},
+			{"id": "t20", "RAM": "6", "HDD": "6", "CPU": "5", "DATA": "type_A", "dest": [{"id": "t23"}, {"id": "t24"}]},
+			{"id": "t21", "RAM": "4", "HDD": "8", "CPU": "4", "DATA": "type_A", "dest": [{"id": "t23"}, {"id": "t24"}]},
+			{"id": "t22", "RAM": "3", "HDD": "5", "CPU": "2", "DATA": "type_A", "dest": [{"id": "t23"}, {"id": "t24"}]},
+			{"id": "t23", "RAM": "0", "HDD": "2", "CPU": "1", "DATA": "type_A", "dest": [{"id": "t24"}]},
+			{"id": "t24", "RAM": "3", "HDD": "3", "CPU": "3", "DATA": "type_A", "dest": []}
+		]
+}}

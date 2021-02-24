@@ -1,0 +1,12 @@
+{	"IoTapplication": {
+		"SLA": "2500",
+		"tasks": [
+			{"id": "t1", "RAM": "3", "HDD": "1", "CPU": "5", "DATA": "type_A", "dest": [{"id": "t5"}]},
+			{"id": "t2", "RAM": "6", "HDD": "4", "CPU": "6", "DATA": "type_B", "dest": [{"id": "t5"}]},
+			{"id": "t3", "RAM": "5", "HDD": "2", "CPU": "6", "DATA": "type_C", "dest": [{"id": "t2"}]},
+			{"id": "t4", "RAM": "1", "HDD": "3", "CPU": "4", "DATA": "type_D", "dest": [{"id": "t5"}]},
+			{"id": "t5", "RAM": "7", "HDD": "2", "CPU": "7", "DATA": "type_A", "dest": [{"id": "t6"}]},
+			{"id": "t6", "RAM": "3", "HDD": "1", "CPU": "4", "DATA": "type_A", "dest": [{"id": "t7"}]},
+			{"id": "t7", "RAM": "2", "HDD": "2", "CPU": "5", "DATA": "type_A", "dest": []}
+		]
+}}
