@@ -1,0 +1,15 @@
+Test nr 0 
+Formula size 2394 
+Total time took:1988 ms 
+Number of edgenodes: 5
+Node offers:{'1': [['t4'], ['t2', 't2'], ['t2', 't4', 't1', 't3'], ['t1', 't3', 't2', 't4']], '3': [['t4'], ['t2', 't2'], ['t2', 't4', 't1', 't3'], ['t1', 't3', 't2', 't4']], '2': [['t2'], ['t2', 't2'], ['t0', 't2', 't1', 't3'], ['t1', 't0', 't3', 't2']], '5': [['t4'], ['t0', 't0'], ['t4', 't0'], ['t0', 't4']], '4': [['t2'], ['t2', 't2'], ['t1', 't3', 't2', 't0'], ['t1', 't0', 't3', 't2']]}
+Solution: 
+t0 = 5 
+t1 = 1 
+t2 = 4 
+t3 = 2 
+t4 = 3 
+SMT took:93 ms 
+TaskFacts:215
+TaskConst:412
+LatencyDomain:1756
