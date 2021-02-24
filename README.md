@@ -11,7 +11,7 @@ Download the framework and install all requirements from the *requirements.txt* 
 
 First, the user must provide two different input JSON files:
  * application model file, where the application's requirements and communication path is described, stored in the app folder.
- * target edge architecture file, stored in the edgeArchitecture folder. Here provide the IP addresses of the edge nodes where the API resides or use localhost if the nodes run locally on the same machine.
+ * target edge architecture file, stored in the edgeArchitecture folder. Here, provide the IP addresses of the edge nodes where the API resides or use localhost if the nodes run locally on the same machine.
 
 
 In our framework there are two important entities, i.e., the coordinator node and the coolaborator nodes:
@@ -35,7 +35,7 @@ Once all collaborators are active and the two imput files are prepared, we can e
 ```bash
  python dispatcher.py -a "antivirusApp" -e "edgeNodes" -s
 ```
-In the command above we tell the dispatcher that the application model file name is *antivirusApp* and the target edge architecture is described in *edgeNodes* JSON file. Finally, we want to see the results in the consol, so we add the *-s* argument.
+In the command above we tell the dispatcher that the application model file name is *antivirusApp* and the target edge architecture is described in *edgeNodes* JSON file. Finally, to see the deployment strategy on the stdout, we add the *-s* argument.
 
 For a complete list of arguments that can be parsed as input to *dispatcher.py* please run:
 
