@@ -10,8 +10,8 @@ Download the framework and install all requirements from the *requirements.txt* 
 ## Framework details
 
 First, the user must provide two different input JSON files:
- * the application model file, stored in the app folder
- * the target edge architecture file, stored in the edgeArchitecture folder. Here provide the ip addresses of the edge nodes where the API resides or use localhost if the nodes run locally on the same machine.
+ * application model file, where the application's requirements and communication path is described, stored in the app folder.
+ * target edge architecture file, stored in the edgeArchitecture folder. Here provide the IP addresses of the edge nodes where the API resides or use localhost if the nodes run locally on the same machine.
 
 
 In our framework there are two important entities, i.e., the coordinator node and the coolaborator nodes:
